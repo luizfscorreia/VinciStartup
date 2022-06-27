@@ -321,6 +321,7 @@ h3{
     color: white;
     margin: 0 auto;
     border-radius: 5px;
+    font-size: 2rem;
     margin-bottom: 80px;
     padding: 20px 40px 20px 40px;
     background-color: var(--roxoEscuro);
