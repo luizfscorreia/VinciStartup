@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="global.css"/>
+    <script src="script.js"></script>
+    <title>Vinci Startup</title>
+</head>
+<body>
+    <div class="contact">
+        <a href="https://api.whatsapp.com/send?phone=5532984965042" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png?w=360" alt="WhatsApp">
+        </a>
+    </div>
+
+    <div id="header" class="header">
+        <div class="logo">VinciStartup</div>
+        <nav class="navegation">
+            <a href="">Home</a>
+            <a href="">O que faremos por você</a>
+            <a href="">Cases</a>
+            <a href="">Planos</a>
+            <a href="">Contato</a>
+        </nav>
+    </div>
+    <div class="home">
+        <div class="homeGrid">
+            <div class="homeGridLeft">
+                <img src="assets/unicornio.svg" alt="">
+            </div>
+            <div class="homeGridRight">
+                <h1> Sua Startup <br/> pode ser o <br/> <span> próximo unicórnio!</span></h1>
+                <p> Preocupe-se em escalar, o marketing a gente cuida!</p>
+                <a href="#plans" class="ctaLinkButton">
+                    Planos
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=5532984965042" class="clearLinkButton">
+                    Fale com um especialista
+                </a>                
+            </div>
+        </div>
+    </div>
+
+    <div class="startupSection">
+        <div class="startupGrid">
+            <div class="startupSectionLeft">
+                <h2>
+                    Tenha um setor de marketing completo e pronto pra decolar sua startup, <span>pagando menos que um salário de um profissional da área!</span>
+                </h2>
+            </div>
+            <div class="startupSectionRight">
+                <img src="assets/unicornio.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="plans">
+        <h2>Planos</h2>
+        <p>Planos na medida certa para cada momento da sua Startup</p>
+        
+        <div class="timeline">
+            <div class="timelinePlan plan1">
+                <h2> Ideação / Pré-Seed </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti itaque quo libero, blanditiis minus. Temporibus dolores, ipsa perspiciatis, harum quod reiciendis recusandae sequi assumenda aliquid facere quos et doloribus.
+                </p>
+                <a href="#preseedPlan" onclick="choosePlan('seedPlan')" class="ctaLinkButton"> Selecionar </a>
+            </div>
+
+            <div class="timelinePlan plan2">
+                <h2> Validação / Seed </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti itaque quo libero, blanditiis minus. Temporibus dolores, ipsa perspiciatis, harum quod reiciendis recusandae sequi assumenda aliquid facere quos et doloribus.
+                </p>
+                <a href="#seedPlan" class="ctaLinkButton"> Selecionar </a>
+            </div>
+
+            <div class="timelinePlan plan3">
+                <h2> Operação / Early Stage </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti itaque quo libero, blanditiis minus. Temporibus dolores, ipsa perspiciatis, harum quod reiciendis recusandae sequi assumenda aliquid facere quos et doloribus.
+                </p>
+                <a href="#earlyStagePlan" class="ctaLinkButton"> Selecionar </a>
+            </div>
+
+            <div class="timelinePlan plan4">
+                <h2> Tração / Growp Stage and Scale Up </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti itaque quo libero, blanditiis minus. Temporibus dolores, ipsa perspiciatis, harum quod reiciendis recusandae sequi assumenda aliquid facere quos et doloribus.
+                </p>
+                <a href="#growrthPlan" class="ctaLinkButton"> Selecionar </a>
+            </div>
+        </div>
+
+        <div class="pricesSectionContainer">
+            <h2 class="plansCTA">Agora é só escolher o melhor plano para decolar sua empresa</h2>
+            
+            <div class="pricePlansWrapper">
+            <div id="preseedPlan" class="pricePlan">
+                <div class="pricePlanHead">
+                    <img src="assets/lamp.svg" alt="">
+                    <h3>Pré-seed</h3>
+                </div>
+                <div class="pricePlanItem" style="margin-bottom: 90px;">
+                    <span>Definição de Persona</span>
+                    <span>Análise de Ambiente</span>
+                    <span>Swot</span>
+                    <span>Análise de Concorrência</span>
+                    <span> Pesquisa de Pré-lançamento</span>
+                </div>
+                <div class="pricePlanFooter">
+                    <span>R$</span> 1500<span>/mês</span>
+                    <a href="" class="ctaLinkButton"> Agendar </a>
+                </div>
+                
+            </div>
+
+            <div id="seedPlan" class="pricePlan">
+                <div class="pricePlanHead">
+                    <img src="assets/eco.svg" alt="">
+                    <h3>Seed</h3>
+                </div>
+                <div class="pricePlanItem" style="margin-bottom: 15px;">
+                    <span>Análise de Produto</span>
+                    <span> Pesquisa de Mercado</span>
+                    <span>Suporte ao MVP</span>
+                    <span>Identidade Visual</span>
+                    <span>Landing Pages</span>
+                    <span>Criação e gestão de redes sociais</span>
+                    <span>Pitch</span>
+                </div>
+                <div class="pricePlanFooter">
+                    <span>R$</span> 3600<span>/mês</span>
+                    <a href="" class="ctaLinkButton"> Agendar </a>
+                </div>
+                
+            </div>
+
+            <div id="earlyStagePlan" class="pricePlan">
+                <div class="pricePlanHead">
+                    <img src="assets/lauch.svg" alt="">
+                    <h3>Early Stage</h3>
+                </div>
+                <div class="pricePlanItem">
+                    <span> Site</span>
+                    <span>Gestão de Redes Sociais</span>
+                    <span>Analytics</span>
+                    <span>Automações de Marketing</span>
+                    <span>Gestão de Trafego</span>
+                    <span> Atualização de Pitch</span>
+                    <span>Vídeo Marketing</span>
+                </div>
+                <div class="pricePlanFooter">
+                    <span>R$</span> 8000<span>/mês</span>
+                    <a href="" class="ctaLinkButton"> Agendar </a>
+                </div>
+                
+            </div>
+
+            <div id="growrthPlan" class="pricePlan tractionPlan">
+                <h3>Growth Stage <br/> and <br/> Scale-up</h3>
+                <span>
+                    Uma equipe de de Marketing exclusiva para seu negócio.
+                </span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="contactSection">
+        <div class="contactSectionLeft">
+            <h2> Fale Conosco </h2>
+            <span class="contanctFone">+55 32 9 8496-5042</span>
+            <div class="socialMidia">
+            </div>
+        </div>
+        <div class="contactSectionRight">
+
+        </div>
+    </div>
+
+  
+</body>
+
+
+<script>
+    var planDescription = document.getElementsByClassName("timelinePlan");
+    for(var planI=0; planI < planDescription.length; planI++){
+        new ScrollMagic.Scene({
+            triggerElement: planDescription[planI],
+            offset: 100,
+            triggerHook: 0.9,
+        }).setClassToggle(planDescription[planI],"show").addTo(controller)
+    }
+
+    var chosePlanCTA = document.getElementsByClassName("plansCTA");
+    for(var ctaI=0; ctaI < chosePlanCTA.length; ctaI++){
+        new ScrollMagic.Scene({
+            triggerElement: chosePlanCTA[ctaI],
+            offset: 50,
+            triggerHook: 0.9,
+        }).setClassToggle(chosePlanCTA[ctaI],"show").addTo(controller)
+    }
+
+    var revealElements = document.getElementsByClassName("pricePlan");
+    for (var i=0; i<revealElements.length; i++) {
+        new ScrollMagic.Scene({
+                            triggerElement: revealElements[i], 
+                            offset: 50,
+                            triggerHook: 0.9,
+                        })
+                        .setClassToggle(revealElements[i], "show")
+                        .addTo(controller);
+    }
+</script>
+</html>
